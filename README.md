@@ -31,4 +31,43 @@ This application is **Bamboware's internal analytics tool**, designed to empower
 
 ---
 
+### Code Structure (Mono-repository)
+```plantext
+project-root/
+├── frontend/                # React or Next.js Frontend Code
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── backend/                 # Node.js Backend Node
+│   ├── src/
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── functions/               # GCP Cloud Functions Code
+│   ├── function1/
+│   │   ├── index.ts
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   └── function2/
+├── infra/                   # Terraform Code
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── .github/                 # GitHub Actions Workflow
+│   └── workflows/
+│       ├── ci-cd-backend.yml
+│       ├── ci-cd-frontend.yml
+│       └── terraform-deploy.yml
+├── shared/                  # Shared library and utils
+│   ├── utils/
+│   ├── types/
+│   └── package.json
+├── .gitignore
+└── README.md
+```
+
+---
+
 This app is intended to work only with Bamboware's configuration that is not open to public.
