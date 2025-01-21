@@ -1,0 +1,12 @@
+{
+  "name": "bamboware",
+  "version": "1.0.0",
+  "description": "**Bamboware** is a US PTO-registered brand committed to sustainability by selling disposable bamboo utensils in the US market. Our mission is to replace plastic utensils with eco-friendly options, ensuring a better future for generations to come.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

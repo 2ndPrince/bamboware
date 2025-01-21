@@ -47,7 +47,7 @@ project-root/
 │   └── README.md
 ├── functions/               # GCP Cloud Functions Code
 │   ├── function1/
-│   │   ├── index.ts
+│   │   ├── index.tsx
 │   │   ├── package.json
 │   │   └── tsconfig.json
 │   └── function2/
